@@ -1,0 +1,35 @@
+{
+  "name": "own-values",
+  "version": "1.0.0",
+  "description": "Like Object.values(), but includes non-enumerable properties, analogous to Reflect.ownKeys()",
+  "keywords": [
+    "object",
+    "own",
+    "non-enumerable",
+    "values"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/own-values",
+  "repository": "lamansky/own-values",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "equals": "^1.0.5",
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
